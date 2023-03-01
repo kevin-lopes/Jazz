@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(90deg, #FFE7D1 0%, #FFF2E6 100%);
+    padding: 10px;
+    
+}
+
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.cabecalho-logo{
+    width: 120px;
+    height: 50px;
+}
+
+.cabecalho-nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 45px;
+}
+
+.cabecalho-nav-menu{
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+
+.cabecalho-nav-menu:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.cabecalho-menu-botao{
+    background: #ED4D1B;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #000000;
+    box-shadow: 1px 2px #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.cabecalho-menu-botao:hover{
+    background-color: #f18868 ;
+}
+
+/* >>>>Acaba aqui o CSS do cabecalho<<< */
+
+
+.conteudo{
+    border-top: 1px solid #000000;
+
+}
+
+.conteudo-principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 200px;
+    z-index: -1;
+
+}
+
+
+.conteudo-principal-titulo{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: #000000;
+}
+
+span{
+    color: #ED4D1B;
+}
+
+.conteudo-principal-texto{
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal-btn{
+    background: #ED4D1B;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #000000;
+    box-shadow: 1px 2px #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+.conteudo-principal-btn:hover{
+     background-color: #f18868;
+  
+}
+
+.conteudo-principal-seta{
+    margin-left: 18%;
+    width: 95px;
+    height: 100px;
+    
+}
+
+.conteudo-principal-imagem{
+    width: 840px;
+    height: 560px;
+}
+
+/*Fim do conteudo principal*/
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -100px;
+    gap: 20px;
+   
+}
+
+.article1{
+    width: 260px;
+    height: 300px;
+    border: 2px solid #000000;
+    background-color: #ED4D1B;
+    box-shadow: 4px 4px 0px #000000;
+    padding: 30px;
+    margin-bottom: 30px;
+    
+}
+
+.article2{
+    width: 260px;
+    height: 300px;
+    border: 2px solid #000000;
+    background-color: #FF9A3C;
+    box-shadow: 4px 4px 0px #000000;
+    padding: 30px;
+    
+}
+
+.instrumentosl{
+    padding-bottom: 20px;
+    width: 38px;
+    height: 50px;
+}
+
+.article1 h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.article1 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.article1:hover{
+    background-color: #f18868;
+}
+
+.article2 h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.article2 p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.article2:hover{
+    background-color: #ad7846;
+}
+
+.seta-instrumentos {
+    margin-top: 25px;
+    margin-left: 170px;
+    margin-bottom: 10px;
+    width: 40px;
+    height: 65px;
+}
+
+
+.conteudo-secundario-h3{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.conteudo-secundario-btn{
+    background: #ED4D1B;
+    width: 210px;
+    height: 48px;
+    border: 1px solid #000000;
+    box-shadow: 1px 2px #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    
+}
+
+.conteudo-secundario-btn:hover{
+    background-color: #f18868;
+}
+
+/*Fim do conteúdo principal*/
+
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #000000;
+    margin-top: 100px;
+    
+}
+
+.rodape-principal{
+    display: flex;
+    justify-content: space-around;
+    gap: 240px;
+    margin-top: 25px;
+}
+
+.rodape-principal-img{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 0;
+    margin-bottom: 30px;
+}
+
+.rodape-principal-img img{
+    width: 133px;
+    height: 65px;
+    
+}
+
+.rodape-principal-img p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.rodape-nav nav{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: 30px 0;
+}
+
+.rodape-nav a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.rodape-nav a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+
+.rodapelabel{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    gap: 10px;
+}
+
+.rodapelabel label{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    
+}
+
+.rodapelabel input{
+    margin-top: 10px;
+    width: 480px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-shadow: 3px 3px 0px #000000;
+}
+
+.rodapelabel a {
+    margin-top: 10px;
+    background: #ED4D1B;
+    width: 150px;
+    height: 35px;
+    border: 1px solid #000000;
+    box-shadow: 1px 2px #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.rodapelabel a:hover{
+    background-color: #f18868;
+}
